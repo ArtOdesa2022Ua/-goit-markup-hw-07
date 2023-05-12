@@ -202,6 +202,12 @@ img {
     /* h e a d e r -- end */
 
     /* s e c t i o n -- 1 -- start */
+    
+    .section-one {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .section-strategy {
         margin: 0;
         padding: 0;
@@ -253,10 +259,6 @@ img {
         display: none;
         list-style: none;
     }
-    .section-one {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     .img-contacts-all {
         flex-direction: column;
