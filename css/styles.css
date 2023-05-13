@@ -120,12 +120,17 @@ img {
         outline-offset: -2px;
     }
     .container-nav {
+        max-width: 428px;
+
         display: flex;
         align-items: center;
         padding-top: 25.5px;
         padding-left: 16px;
         padding-right: 16px;
         padding-bottom: 23.5px;
+
+        outline: 2px solid red;
+        outline-offset: -2px;
     }
     .navigation {
         display: flex;
@@ -198,12 +203,16 @@ img {
         margin-bottom: 96px;
 
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mob.jpg);
+        
+        outline: 2px solid red;
+        outline-offset: -2px;
     }
     /* h e a d e r -- end */
 
     /* s e c t i o n -- 1 -- start */
     .sect-one {
         display: block;
+        max-width: 428px;
     }
     .section-one {
         list-style: none;
@@ -262,6 +271,8 @@ img {
 
     /* s e c t i o n -- 2 -- start */
     .container-cont {
+        width: 428px;
+        height: 2232px;
         display: flex;
         flex-direction: column;
 
@@ -284,13 +295,21 @@ img {
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-
+        
         color: #2E2F42;
     }
-    .img-contacts {
-        display: flex;
+
+    .img-contacts-all {
+        width: 428px;
+        height: 2232px;
+
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-contacts {
         margin-bottom: 72px;
+        padding: 0;
 
         background: #FFFFFF;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -330,6 +349,9 @@ img {
 
 /* s e c t i o n -- 3 -- start */
     .customers {
+        max-width: 428px;
+        
+        margin-bottom: 96px;
         padding-left: 16px;
         padding-right: 16px;
 
@@ -356,12 +378,152 @@ img {
         height: 88px;
     }
     /* s e c t i o n -- 3 -- end */
-    
-    
-    .img-contacts-all {
+
+    /* s e c t i o n -- footer -- start */
+
+    .footer {
+        max-width: 428px;
+        background-color: #2E2F42;
+        padding-top: 97.5px;
+
+        outline: 2px solid red;
+        outline-offset: -2px;
+    }
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo_p {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .logo-footer {
+        margin-bottom: 16px;
+        display: inline-block;
+        font-family: var(--secondary-font);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--color-iris);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .logo-studio-footer {
+        font-family: var(--secondary-font);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        color: #F4F4FD;
+    }
+    .footer-text {
+        max-width: 264px;
+        margin: 0;
+        margin-bottom: 72px;
+
+        font-family: var(--primary-font);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+
+        color: #F4F4FD;
+    }
+    .text-sm {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+    }
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-media-link {
+        display: flex;
+        gap: 16px;
+        list-style-type: none;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        margin-bottom: 80px;
+    }
+    .socials-footer-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #4d5ae5;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .socials-footer-link:hover,
+    .socials-footer-link:focus {
+        background-color: #31d0aa;
+    }
+    .sub-inpt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-sm {
+        margin-bottom: 16px;
+    }
+    .sub-email {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .email-inp {
+        width: 398px;
+        height: 40px;
+
+        margin-bottom: 16px;
+        padding: 8px 16px;
+        border: 1px solid #FFFFFF;
+        border-radius: 4px;
+
+        background-color: var(--color-grey);
+        color: #FFFFFF;
+    }
+    .butn-send {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+
+        margin-left: 24px;
+        margin-bottom: 96px;
+        min-width: 165px;
+        height: 40px;
+        
+        border: none;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        
+        cursor: pointer;
+        font-weight: 500;
+        font-family: var(--primary-font);
+        line-height: 1.5;
+        font-size: 16px;
+        letter-spacing: 0.04em;
+    
+        background-color: #4D5AE5;
+        color: #ffffff;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .butn-send:hover,
+    .butn-send:focus {
+        background-color: #404bbf;
+        transition-duration: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
 /* Tablet styles */
@@ -654,78 +816,7 @@ img {
 /* ----------------- section 5 end ----------------- */
 
 /* ----------------- Footer START -----------------*/
-.container-footer {
-    display: flex;
-}
-.logo_p {
-    margin-right: 120px;
-}
-.footer {
-    background-color: #2E2F42;
-    padding: 100px 0;
-}
 
-.logo-footer {
-    margin-bottom: 16px;
-    display: inline-block;
-    font-family: var(--secondary-font);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--color-iris);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.logo-studio-footer {
-    font-family: var(--secondary-font);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    color: #F4F4FD;
-}
-
-.footer-text {
-    margin: 0;
-    max-width: 264px;
-    font-family: var(--primary-font);
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-    text-decoration: none;
-}
-.text-sm {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    margin-bottom: 16px;
-}
-.social-media-link {
-    display: flex;
-    gap: 16px;
-    list-style-type: none;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-right: 80px;
-}
-.socials-footer-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #4d5ae5;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-    
-.socials-footer-link:hover,
-.socials-footer-link:focus {
-    background-color: #31d0aa;
-}
 /* ----------------- Footer END -----------------*/
 
 /* ----------------- Portfolio START ----------------- */
@@ -1088,45 +1179,8 @@ button:focus {
 }
 
 .sub-email {
-    display: flex;
+    /* display: flex;
     margin-top: 16px;
-    width: 450px;
+    width: 450px; */
 }
-.email-inp {
-    width: 264px;
-    height: 40px;
-    padding: 8px 16px;
-    border: 1px solid #FFFFFF;
-    border-radius: 4px;
-    background-color: var(--color-grey);
-    color: #FFFFFF;
-}
-.butn-send {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    margin-left: 24px;
-    border: none;
-    min-width: 165px;
-    height: 40px;
-    
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    
-    cursor: pointer;
-    font-weight: 500;
-    font-family: var(--primary-font);
-    line-height: 1.5;
-    font-size: 16px;
 
-    letter-spacing: 0.04em;
-    background-color: #4D5AE5;
-    color: #ffffff;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.butn-send:hover,
-.butn-send:focus {
-    background-color: #404bbf;
-    transition-duration: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
