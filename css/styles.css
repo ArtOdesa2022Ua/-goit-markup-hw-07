@@ -259,10 +259,10 @@ img {
     }
     /* s e c t i o n -- 1 -- end */
 
+
     /* s e c t i o n -- 2 -- start */
     .container-cont {
         display: flex;
-        /* justify-content: center; */
         flex-direction: column;
 
         padding-left: 16px;
@@ -291,7 +291,7 @@ img {
         display: flex;
         flex-direction: column;
         margin-bottom: 72px;
-        
+
         background: #FFFFFF;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
@@ -325,27 +325,43 @@ img {
 
         color: var(--color-slate);
     }
+/* s e c t i o n -- 2 -- end */
 
 
+/* s e c t i o n -- 3 -- start */
+    .customers {
+        padding-left: 16px;
+        padding-right: 16px;
 
+        outline: 2px solid red;
+        outline-offset: -2px;        
+    }
+    .clients-list {
+        max-width: 396px;
+        max-height: 520px;
 
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        row-gap: 72px;
 
+        list-style: none;
 
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .clisent {
+        width: calc((100% - 16px) / 2);
+        height: 88px;
+    }
+    /* s e c t i o n -- 3 -- end */
+    
+    
     .img-contacts-all {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    .customers {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .clients-list {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
     }
 }
 /* Tablet styles */
@@ -601,8 +617,8 @@ img {
 }
 
 .customers {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
 }
 
 .section-four {
@@ -610,13 +626,10 @@ img {
 }
 
 .clients-list {
-    display: flex;
-    gap: 24px;
+    /* display: flex;
+    gap: 24px; */
 }
-.clisent {
-    width: calc((100% - 120px) / 6);
-    height: 88px;
-}
+
 .clients-link {
     display: flex;
     align-items: center;
@@ -624,7 +637,7 @@ img {
 
     color: var(--color-light-slate);
     height: 100%;
-    width: 168px;
+    /* width: 168px; */
     border: 1px solid #8E8F99;
     border-radius: 4px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
