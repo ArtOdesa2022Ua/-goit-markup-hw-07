@@ -26,13 +26,11 @@ h5 {
     /* margin: 0 auto; */
 }
 ul {
-    /* margin: 0 auto;
-    padding-left: 0; */
+    margin: 0 auto;
+    padding-left: 0;
 }
 /* ----------------- Body START----------------- */
 body {
-    width: auto;
-    height: auto;
     font-family: var(--primary-font);
     color: #434455;
     background-color: #FFFFFF;
@@ -87,13 +85,13 @@ img {
 
 .list {
     display: flex;
-    gap: 40px;
+    gap: 40px; 
     list-style: none;
 
-    /* font-size: 20px;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42; */
+    color: #2E2F42;
 }
 
 /* ----------------- Body END ----------------- */
@@ -101,18 +99,17 @@ img {
 
 /* ----------------- Header START ----------------- */
 .header {
-    border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    /* border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
 }
 .logo-address {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 }
 
 @media only screen and (min-width: 320px) {
     /* h e a d e r -- start*/
     .container {
-        width: 100%;
         /* Phone styles */
         margin-left: auto;
         margin-right: auto;
@@ -126,13 +123,12 @@ img {
     .container-nav {
         display: flex;
         align-items: center;
-    }
-    .navigation {
         padding-top: 25.5px;
-        padding-bottom: 23.5px;
         padding-left: 16px;
         padding-right: 16px;
-
+        padding-bottom: 23.5px;
+    }
+    .navigation {
         font-weight: 800;
         font-size: 18px;
         line-height: 21px;
@@ -142,7 +138,6 @@ img {
         background: transparent;
         border: none;
         
-        padding-right: 16px;
         border-radius: 3px;
     }
     h1 {
@@ -191,22 +186,26 @@ img {
 
     }
     .hero-image {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mob.jpg);
+        display: flex;
+        flex-direction: column-reverse;
+        
         max-width: 428px;
         height: 432px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        
+        margin-top: 0px;
         margin-bottom: 96px;
+
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mob.jpg);
     }
     /* h e a d e r -- end */
 
     /* s e c t i o n -- 1 -- start */
-    
+    .sect-one {
+        display: block;
+    }
     .section-one {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        list-style: none;
+    
     }
     .section-strategy {
         margin: 0;
@@ -232,12 +231,10 @@ img {
         color: #2E2F42;
     }
     .title-description {
-        width: 396px;
-        height: 48px;
+        display: flex;
+        flex-direction: row;
         
         margin-bottom: 72px;
-        padding-left: 16px;
-        padding-right: 16px;
 
         font-family: 'Roboto';
         font-style: normal;
@@ -257,8 +254,6 @@ img {
     }
     .vector {
         display: none;
-        list-style: none;
-    }
     }
     .img-contacts-all {
         flex-direction: column;
