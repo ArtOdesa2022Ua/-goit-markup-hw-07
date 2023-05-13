@@ -298,10 +298,9 @@ img {
         
         color: #2E2F42;
     }
-
     .img-contacts-all {
-        width: 428px;
-        height: 2232px;
+        /* width: 428px;
+        height: 2232px; */
 
         flex-direction: column;
         justify-content: center;
@@ -377,9 +376,10 @@ img {
         width: calc((100% - 16px) / 2);
         height: 88px;
     }
-    /* s e c t i o n -- 3 -- end */
+/* s e c t i o n -- 3 -- end */
 
-    /* s e c t i o n -- footer -- start */
+
+/* s e c t i o n -- footer -- start */
 
     .footer {
         max-width: 428px;
