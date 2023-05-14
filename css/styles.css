@@ -106,6 +106,7 @@ img {
     /* display: flex;
     align-items: center; */
 }
+
 /* Phone styles */
 @media only screen and (min-width: 320px) {
     /* h e a d e r -- start*/
@@ -614,7 +615,6 @@ img {
 
 /* ----------------- section 1 Hero image START ----------------- */
 
-
 .hero {
     /* margin: 0 auto;
     max-width: 496px;
@@ -697,6 +697,7 @@ img {
 
 
 /* ----------------- section 3 START -----------------*/
+
 .portf {
     padding-bottom: 120px;
 }
@@ -714,16 +715,17 @@ img {
     color: var(--color-grey);
     text-transform: capitalize;
 }
-
 .img-portfolio {
     gap: 24px;
     display: flex;
     list-style-type: none;
 }
+
 /* ----------------- section 3 END -----------------*/
 
 
 /* ----------------- section 4 START -----------------*/
+
 .prof-cont {
     padding: 32px 0;
 }
@@ -746,7 +748,9 @@ img {
     display: flex;
     justify-content: space-between;
 }
+
 /* Socials icons */
+
 .socials {
     display: flex;
     justify-content: center;
@@ -770,6 +774,7 @@ img {
 .socials-icon {
     fill: #f4f4fd;
 }
+
 /* ----------------- section 4 END -----------------*/
 
 /* ----------------- section 5 start ----------------- */
@@ -777,21 +782,17 @@ img {
     display: flex;
     justify-content: space-between;
 }
-
 .customers {
     /* padding-top: 120px;
     padding-bottom: 120px; */
 }
-
 .section-four {
     /* line-height: 1.1; */
 }
-
 .clients-list {
     /* display: flex;
     gap: 24px; */
 }
-
 .clients-link {
     display: flex;
     align-items: center;
@@ -813,11 +814,6 @@ img {
 .clisent-icon {
     fill: currentColor;
 }
-/* ----------------- section 5 end ----------------- */
-
-/* ----------------- Footer START -----------------*/
-
-/* ----------------- Footer END -----------------*/
 
 /* ----------------- Portfolio START ----------------- */
 .header-portfolio {
@@ -850,7 +846,6 @@ img {
     letter-spacing: 0.02em;
     list-style: none;
 }
-
 .btn-all {
     border-radius: 4px;
     border: 1px solid #e7e9fc;
@@ -869,7 +864,6 @@ img {
 .first-bt:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
 .btn-all:hover,
 .btn-all:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -886,7 +880,6 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .cont-img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -940,6 +933,7 @@ img {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transform: translatex(0);
 }
+
 /* ------- Modal styles -------*/
 .backdrop {
     position: fixed;
@@ -993,13 +987,11 @@ img {
 .modal-btn {
     margin-bottom: 24px;
 }
-
 .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
 }
-
 .contacts-book {
     color: var(--color-grey);
     max-width: 360px;
@@ -1028,7 +1020,6 @@ label {
     line-height: 14px;
     font-style: normal;
 }
-
 .user-data {
     position: relative;
     margin-bottom: 10px;
@@ -1089,7 +1080,6 @@ textarea:hover {
     border-color: var(--color-iris);
     transition: var(--transition);
 }
-
 textarea:focus {
     outline-color: var(--color-iris);
     box-shadow: 0 0 0 1px rgba(77, 90, 229, 0.25);
@@ -1177,10 +1167,8 @@ button:focus {
 
     color: var(--color-navy-blue);
 }
-
 .sub-email {
     /* display: flex;
     margin-top: 16px;
     width: 450px; */
 }
-
