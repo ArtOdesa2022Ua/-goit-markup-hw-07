@@ -16,11 +16,11 @@
 </head>
 
 <body>
-    <header class="header-portfolio">
-        <div class="header-item container">
-            <nav class="nav">
+    <header class="header">
+        <div class="container-nav">
+            <nav class="navigation">
                 <a class="logo link" href="./index.html">Web<span class="logo-studio">Studio</span></a>
-                <ul class="menu list">
+                <ul class="list link">
                     <li>
                         <a class="nav-link link" href="./index.html">Studio</a>
                     </li>
@@ -42,10 +42,14 @@
                     </li>
                 </ul>
             </address>
+            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg width="29.54" height="18.62">
+                    <use href="./images/icons.svg#icon-Vector-burger"></use>
+                </svg>
+            </button>
         </div>
     </header>
     <main>
-        <!-- Filters -->
         <section class="button-list">
             <div class="container">
                 <h1 class="text" hidden>text</h1>
@@ -66,7 +70,6 @@
                         <button class="btn-all first-bt" type="button">Marketing</button>
                     </li>
                 </ul>
-                <!-- Row 1 -->
                 <ul class="rowone list">
                     <li class="">
                         <a class="first-row link" href="">
