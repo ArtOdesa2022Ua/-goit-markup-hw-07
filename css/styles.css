@@ -754,16 +754,21 @@ img {
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+    .page-link {
+        display: flex;
+        gap: 40px;
+        list-style: none;
+
+    }
     .container-nav {
         max-width: 768px;
         max-height: 72px;
-        
+        padding-left: 16px;
+        padding-right: 16px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-top: 24px;
-        padding-left: 16px;
-        padding-right: 16px;
         padding-bottom: 24px;
         
         border: 1px solid #E7E9FC;
@@ -903,8 +908,6 @@ img {
         background-color: #F4F4FD;
     }
     .section-four {
-        /* padding-top: 96px;
-        padding-bottom: 72px; */
 
         font-family: var(--primary-font);
         font-weight: 700;
@@ -964,7 +967,8 @@ img {
     /* --- Section 3 --- */
     .customers {
         max-width: 768px;
-        
+        margin-top: 0px;
+        margin-bottom: 0px;
         /* margin-bottom: 96px; */
         padding-left: 16px;
         padding-right: 16px;
@@ -972,16 +976,11 @@ img {
         outline: 2px solid red;
         outline-offset: -2px;        
     }
-    .clients-list {
-        max-width: 396px;
-        max-height: 520px;
-
+    .list-brand {
         display: flex;
         flex-wrap: wrap;
         gap: 16px;
         row-gap: 72px;
-
-        list-style: none;
 
     }
     .clisent {
