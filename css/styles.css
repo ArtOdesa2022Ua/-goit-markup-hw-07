@@ -1444,22 +1444,25 @@ img {
 
     /* --- advantages-list - start --- */
     .sect-one {
-        width: 1128px;
-        height: 224px;
+        
+        padding-left: 156px;
+        padding-right: 156px;
     }
     .container {
     }
     .section-one {
+
+        width: 1128px;
+        height: 224px;
         display: flex;
         flex-wrap: nowrap;
         margin-bottom: 0px;
     }
     .section-strategy {
-        width: 264px;
-        height: 112px;
-
     }
     .vector{
+        width: 264px;
+        height: 112px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1485,9 +1488,9 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--color-slate);
-}
+    }
 
-    
+}    
   @media (min-width: 768px) {
     .menu-toggle {
       display: none;
