@@ -894,8 +894,8 @@ img {
         max-width: 768px;
         height: 436px;
         
-        margin-top: 0px;
-        margin-bottom: 96px;
+        margin: 0;
+        padding-bottom: 96px;
         
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-table.jpg);
         
@@ -952,22 +952,22 @@ img {
         outline-offset: -2px;
     }
     .sect-one {
-        display: block;
-        max-width: 768px;
-        max-height: 312px;
+        display: flex;
+        max-width: 1440px;
+        max-height: auto;
     }
     .section-one {
         display: flex;
-        flex-wrap: wrap;
+        align-items: flex-start;
+
         list-style: none;
-        margin-bottom: 96px;
+
         text-align: left;
         
     }
     .section-strategy {
         width: 356px;
-        margin: 0;
-        padding: 0;
+
     }
 
     /* --- Section 2 --- */
@@ -1468,6 +1468,9 @@ img {
     }
     .section-strategy {
         width: 264px;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
     }
     .vector{
         width: 264px;
